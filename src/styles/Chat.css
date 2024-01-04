@@ -1,0 +1,91 @@
+/* Chat.css */
+body {
+    background-color: #dedada; /* Light gray background */
+  }
+  .chat-app {
+    font-family: 'DAVID', sans-serif;
+    direction: rtl;
+    max-width: 800px; /* Adjust the max-width to your preference */
+    margin:  300px auto 100px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(2, 1, 12, 0.1);
+
+  }
+  
+  .new-massage-form {
+    display: flex;
+  }
+  
+  .new-massage-input {
+    display: flex;
+    flex-grow: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px; /* Adjust the font size to your preference */
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    font-family: 'DAVID', sans-serif;
+    color: #585f6d;
+    font-size: 36px;
+  }
+  .chat-page h1{
+    display: flex;
+    font-family: 'DAVID', sans-serif;
+    color: #585f6d;
+    font-size: 16px;
+    
+  }
+  
+  .sent-button {
+    padding: 12px;
+    background-color: #585f6d;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sent-button:hover {
+    background-color: #2f333b;
+  }
+  
+  /* Optional: Style for placeholder text */
+  .new-massage-input::placeholder {
+    color: #888;
+  }
+  
+  /* Chat.css */
+  .messages {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    margin: 8px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  .message .user {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .screen {
+    font-weight: bold;
+    margin: 10 px;
+    font-family: 'DAVID', sans-serif;
+  }
+  
